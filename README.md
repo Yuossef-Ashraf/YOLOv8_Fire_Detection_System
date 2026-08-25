@@ -1,28 +1,30 @@
-# YOLOv8 Computer Vision Fire Detection System 🔥🎥
+# YOLOv8 Fire Detection System
 
-Real-time fire and smoke detection system using custom-trained Ultralytics YOLOv8 object detection model.
+A computer vision model for real-time fire and smoke detection in video streams using YOLOv8 weights.
 
-## Key Features ✨
-- Well-structured code and clean modular implementation.
-- Built with modern standard tools: **Python, OpenCV, PyTorch, Ultralytics YOLOv8**.
-- Clean data preprocessing, EDA, and model evaluation metrics.
+## Contents
+- **Code**: `YOLOv8_Fire_Detection_System (code).ipynb`
+- **Dataset / Resources**: `Trained weights file: fire.pt`
+- **Documentation**: `README.md`
 
-## Project Structure 📂
-```
-YOLOv8_Fire_Detection_System/
-├── .gitignore
-├── README.md
-└── ... (project source files)
+## Requirements
+```bash
+pip install ultralytics opencv-python torch jupyter
 ```
 
-## Setup & Installation 🚀
+## Usage
+1. Clone the repository:
 ```bash
 git clone https://github.com/Yuossef-Ashraf/YOLOv8_Fire_Detection_System.git
 cd YOLOv8_Fire_Detection_System
 ```
+2. Open and run the project code:
+```bash
+jupyter notebook "YOLOv8_Fire_Detection_System (code).ipynb"
+```
 
-## Author 👤
-Created and maintained by **Yuossef Ashraf**.
+## Author
+Yuossef Ashraf
 
-## License 📜
-Distributed under the MIT License.
+## License
+MIT License
