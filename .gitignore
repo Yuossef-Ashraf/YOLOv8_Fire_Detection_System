@@ -1,22 +1,33 @@
-# Python & Jupyter cache
+# Python Bytecode & Cache
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
-.pytest_cache/
+*.py[cod]
+*$py.class
+*.so
+.Python
 
 # Virtual Environments
 .venv/
 venv/
+ENV/
 env/
 
-# Large media files (>100MB)
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs & Outputs
+logs/
+*.log
+runs/
 *.mp4
 *.avi
-*.mov
+output/
 
-# OS & IDE metadata
-Thumbs.db
-Desktop.ini
-.DS_Store
+# IDE files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
